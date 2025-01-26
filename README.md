@@ -1,0 +1,1 @@
+This repository contains a simple Tcl procedure that demonstrates a stack overflow error due to uncontrolled recursion.  The `bug.tcl` file shows the erroneous code. The `bugSolution.tcl` provides a corrected version with a proper base case to prevent the stack overflow. The error is common in recursive functions where the termination condition is not properly handled.
